@@ -1,0 +1,69 @@
+.mail-img, .google-img {
+    width:18px;
+}
+.login-box {
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    margin-left: 22.5%;
+    border-width: 2px;
+    border-style: solid;
+    padding: 30px;
+    font-family: Montserrat;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+}
+
+.login p {
+    font-size: 30px;
+    color: rgb(79, 79, 79);
+}
+.cc{
+    padding: 20px;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.login-button {
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #E23744;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 35px;
+}
+.login-button:hover{
+    background-color: #cf3340;
+}
+.login-button:active{
+    background-color: #be3b46;
+}
+.login-info{
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+.email,.Google{
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 15px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+.lower span{
+    color:#E23744;
+}
+

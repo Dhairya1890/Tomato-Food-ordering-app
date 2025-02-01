@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login To Tomato</title>
+    <link rel="stylesheet" href="loginstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img  style="width: 100%; height: 100%; filter: blur(2px);" src="images\background-blur.png">
+    <div class="login-box">
+        <div class="upper">
+            <div style="display: flex; justify-content: space-between;" class="login">
+                <p style="display: inline;">Login</p>
+                <p style="display: inline;"><a style="text-decoration: none;" href="index.html">x</a></p>
+            </div>
+            <div class="phone">
+                <div class="cc">
+                    <div class="login-info">
+                        <select
+                            style="margin-right: 0; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; border: none;">
+                            <option value="in">+91</option>
+                            <option value="us">+01</option>
+                            <option value="aus">+61</option>
+                            <option value="is">+971</option>
+                        </select>
+                        <input
+                            style="margin-left: 0px; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; border: none;"
+                            type="text" name="Phone" placeholder="Phone">
+                    </div>
+                </div>
+                <div>
+                    <button class="login-button">Send One Time Password</button>
+                </div>
+                <hr style="width: 80%;">
+                <p>Or</p>
+                <button class="email"><img class="mail-img" src="images\mail.png"> Continue with Email</button>
+                <button class="Google"><img class="google-img" src="images\search.png"> Sign in with Google</button>
+            </div>
+        </div>
+        <hr style="width: 80%;">
+        <div class="lower">
+            <p>New to Tomato?<span> Create account</span></p>
+        </div>
+    </div>
+</body>
+
+</html>
